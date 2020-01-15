@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:padding="8dip"
+                android:layout_marginTop="30dp"
+                android:hint=" Enter username"
+                android:layout_gravity="center"
+                android:inputType="textEmailAddress"
+
+
+                android:background="@drawable/shape" />
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:padding="8dip"
+                android:hint=" Enter password"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:inputType="textPassword"
+
+
+                android:background="@drawable/shape" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:padding="8dp"
+                android:onClick="login"
+                android:backgroundTint="@color/colorAccent"
+                android:text="Log In"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000"
+                    android:text="New User?  "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/colorAccent"
+                    android:onClick="register"
+                    android:textSize="18dp"
+
+                    android:text="Sign Up"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

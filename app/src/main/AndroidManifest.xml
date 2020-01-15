@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.weaponoid.ngo">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".event_request"
+            android:label="Request Event Permission"></activity>
+        <activity
+            android:name=".ngo_details"
+            android:label="NGO Details" />
+        <activity
+            android:name=".verify_ngo"
+            android:label="Verify NGO" />
+        <activity
+            android:name=".ngo_panel"
+            android:label="NGO Panel" />
+        <activity
+            android:name=".admin_panel"
+            android:label="Admin Panel" />
+        <activity
+            android:name=".register"
+            android:label="NGO Registration" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
