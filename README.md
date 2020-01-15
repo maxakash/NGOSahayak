@@ -4,9 +4,12 @@ The purpose of the system is to provide an interface to NGO's as well as governm
 
 
 To login into Admin Panel, use below credentials
-username - ngosahayak
-password - admin
+username - "ngosahayak"  |  password - "admin"
+
+
+
+
 To login into NGO panel, use below credentials
-username - ngopanel
-password - password
+username - "ngopanel"  |   password - "password"
+
 
